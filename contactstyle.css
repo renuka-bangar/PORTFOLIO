@@ -1,0 +1,63 @@
+.one{
+    width: 45%;
+    height: 50%;
+    margin-left: 10px;
+    border: 5px double black;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-image: url(formbg.jpg);
+}
+.two{
+    margin-bottom: 10px;
+}
+.three{
+    
+    margin-left: 150px;
+    padding: 9px;
+    background-color: #0074D9; 
+    color:white;
+    
+    
+
+
+}
+.three:hover{
+    background-color: #0056B3; 
+    box-shadow: 5px;
+
+}
+.lege
+{
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon{
+    margin-top: 170px;
+  border-radius: 2px;
+  margin-left: 1000px;
+  
+ }
+ .icon img{
+     border-radius: 25px;
+ }
+ body{
+    background-image: url(background.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+ }
+ .backgroundimage{
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+
+
+ }

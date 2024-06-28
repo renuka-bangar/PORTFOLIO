@@ -1,0 +1,36 @@
+.button-container
+{
+    display: flex;
+}
+
+.button{
+    flex: 1;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1190px;
+}
+
+.button:hover {
+    background-color:purple;
+}
+ .button1 {
+   
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+   
+    
+}
+
+ .button1:hover {
+    background-color: blue;
+}

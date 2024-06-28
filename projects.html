@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>PROJECT DETAILS</title>
+    <link rel="stylesheet" href="buttons.css">
+    <style>
+        .container
+        {
+            display: flex;
+        }
+
+        .leftside{
+            flex: 1;
+        }
+        .rightside{
+            flex: 1;
+        }
+        .tit{
+            text-align:center;
+            margin-left: 170px;
+           font-family: cursive;
+            
+        }
+        body{
+            background-color: papayawhip;
+        }
+        #para{
+            text-align: center;
+        }
+    </style>
+   
+</head>
+<body>
+    <p class="tit">DAPPER IRRIGATION SYSTEM USING SOLAR PANEL</p>
+    <div class="container">
+        
+        <div class="leftside">
+            <p id="para">VIDEO</p>
+            <video src="PROVIDEO.mp4" controls height="400px" width="600px"></video>
+            <iframe width="560" height="315" src="C:\Users\HP\Downloads\provideo.mp4 (1).mp4" frameborder="0" allowfullscreen></iframe>
+          
+        </div>
+       
+        <div class="rightside">
+            <p id="para"> INTRODUCTION</p>
+            <P>This project uses Arduino Uno to control the System. The Arduino Board is programmed using the Arduino IDE software. The system uses the   moisture sensor ,two DHT11sensor ,DC water pump and Dc fan. DHT11 measures the humidity and temperature of the surrounding, first DHT11 sensor used in the green house if the values of temperature and humidity are above the threshold values then fan starts rotating to cool down the surrounding moisture senor measures the level of moisture content in the soil and based on the average moisture value it sends the signal   to the Arduino  if watering is required.The sensors sense the respective parameters and data is sent to the monitoring unit as well as shown on LCD screen. The waterpump supplies water to the plants until the desired moisture level is reached. Whenever the soil condition is dry, the microcontroller sends command to relay and the motor gets switched on and supplies water to the field. And if the soil gets wet, motor gets switched off.
+                The rechargable battery that supplies required power source is recharged via Solar panel. The solar tracking system comprises of a solar panel, Arduino microcontroller and sensors. For this system to operate there must be emission of light through the sun. These solar panels charges the rechargeable batteries which is used to drive loads in failure of supply and in day times from panel. The power is supplied to the DC motor that helps to pump the water based on the reference value and stops watering when it reaches the threshold value. The power is also supplied to the Dc motor fan to cool down the temperature in the green house,if temperature increases then the dc fan automatically starts to cool down.  Blynk is an IOT platform for android smartphones that is used to control Arduino via the internet. This application is used to create graphical interface by compiling and providing appropriate address on the available widgets. Through this app we can monitor the temperature, humidity, moisture content in soil on the smartphones. The ranchers can   monitor the status of the agriculture field through the mobile from any place. 
+                
+            </P>
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="Leftcorner">
+           <p><a href="aboutme.html" class="button1" inputmode="button">PREV</a></p>
+         </div>
+         <div class="rightcorner">
+           <p><a href="certificates.html" class="button" inputmode="button">NEXT</a></p>
+         </div>
+            
+  
+  
+       </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT DETAILS</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="thankyou.jpg">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        fieldset {
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-size: 20px;
+            color: #007bff;
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .three {
+            display: block;
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .icon {
+            text-align: center;
+        }
+
+        .icon a {
+            margin: 0 10px;
+        }
+        .field{
+            background-image:url(formbg.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <form action="message.html">
+        <fieldset class="field">
+            <legend>Fill Your Details</legend>
+            <label for="name">FIRST NAME</label>
+            <input type="text" name="name" id="name" placeholder="Enter your First name" required>
+            <br><br>
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter your Last Name" required>
+            <br><br>
+            <label for="number">CONTACT</label>
+            <input type="tel" name="number" id="number" pattern="[6-9]{1}[0-9]{9}" required placeholder="Enter your number">
+            <br><br>
+            <label for="mail">EMAIL</label>
+            <input type="email" name="email" id="mail" required placeholder="Enter your mail address">
+            <br><br>
+            <label for="comment">Comment</label><br>
+            <textarea id="comment" name="comment" rows="7" cols="50"></textarea>
+            <br><br>
+            <input type="submit" class="three" value="Submit">
+        </fieldset>
+    </form>
+    <div class="icon">
+        <a href="https://www.instagram.com/"><img src="instagram.jpeg" alt="" height="50px" width="50px"></a>
+        <a href="https://www.linkedin.com/feed/"><img src="linkedin.jpeg" alt="" height="50px" width="50px"></a>
+        <a href="https://github.com/"><img src="github.jpeg" alt="" height="50px" width="50px"></a>
+        <a href="https://www.google.com/maps/@17.3625832,76.8439871,20z?entry=ttu"><img src="googlemap.jpeg" alt="" height="50px" width="50px"></a>
+        <br><br>
+    </div>
+</body>
+</html>

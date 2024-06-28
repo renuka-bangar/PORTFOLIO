@@ -1,0 +1,31 @@
+body{
+   
+   
+    background-position: center;
+    margin-top: 200px;
+  
+}
+p
+{
+    text-align: center;
+    margin-top: 60px;
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color:#f2f2f2;
+    text-align: center;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

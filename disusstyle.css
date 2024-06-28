@@ -1,0 +1,84 @@
+/* Reset styles */
+html, body, h1, h2, p, video {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Your Specific Cursive Font', cursive, sans-serif;
+    background-color: papayawhip;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-title {
+    font-family: 'Your Specific Cursive Font', cursive;
+}
+
+/* Main container styles */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left container styles (Video) */
+.left-container {
+    flex-basis: 48%;
+}
+
+/* Video styles */
+video {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Right container styles (Content) */
+.right-container {
+    flex-basis: 48%;
+}
+
+/* Footer styles */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.left-corner, .right-corner {
+    flex-basis: 48%;
+}
+
+.right-corner {
+    text-align: right;
+}
+
+/* Button styles */
+.button1, .button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .left-container, .right-container, .left-corner, .right-corner {
+        width: 100%;
+    }
+
+    video {
+        margin-bottom: 10px;
+    }
+}
